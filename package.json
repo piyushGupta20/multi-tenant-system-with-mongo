@@ -1,10 +1,10 @@
 {
-  "name": "unique-db-connect",
+  "name": "mulit-tenant-system-using-mongo",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon --env-file=.env server.js",
-    "start": "nodemon server.js"
+    "start": "node --env-file=.env server.js",
+    "dev": "nodemon --env-file=.env server.js"
   },
   "keywords": [],
   "author": "",
